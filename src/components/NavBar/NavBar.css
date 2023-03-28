@@ -1,0 +1,23 @@
+.navbar {
+  padding: 100px;
+  background: rgb(131, 58, 180);
+  background: linear-gradient(
+    90deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(253, 29, 29, 0.43599446614583337) 50%,
+    rgba(252, 176, 69, 1) 100%
+  );
+}
+.nav-item {
+  padding: 20px;
+}
+h4 {
+  color: white;
+}
+.nav-item {
+  color: white;
+}
+.btn {
+  margin: 20px;
+  font-size: larger;
+}
