@@ -1,12 +1,12 @@
 .navbar {
   padding: 100px;
-  background: rgb(131, 58, 180);
-  background: linear-gradient(
-    90deg,
-    rgba(131, 58, 180, 1) 0%,
-    rgba(253, 29, 29, 0.43599446614583337) 50%,
-    rgba(252, 176, 69, 1) 100%
-  );
+  background: #d66d75; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #d66d75,
+    #e29587
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #d66d75, #e29587);
 }
 .nav-item {
   padding: 20px;
@@ -14,10 +14,22 @@
 h4 {
   color: white;
 }
-.nav-item {
-  color: white;
-}
+
 .btn {
-  margin: 20px;
+  margin: 30px;
   font-size: larger;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+.container {
+  display: flex;
+  padding: 20px;
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }

@@ -1,23 +1,21 @@
 import "./App.css";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import NavBar from "./components/NavBar/NavBar";
 import ItemListContainer from "./components/ItemListContainer/ItemListContainer";
+import ItemDetailContainer from "./components/ItemDetailContainer/ItemDetailContainer";
 
 function App() {
   return (
     <div className="App">
-      <NavBar />
-      <div class="container-fluid">
-        <ItemListContainer greeting={"Bienvenidos a Cerámicas Carmesí"} />
-        <h5>
-          Cuando compramos un productos 100% hecho a mano estamos comprando un
-          artículo que fue pensado, diseñado y ha pasado por horas de prueba
-          para conseguir el producto deseado; estamos comprando productos
-          exclusivos, únicos y quizá irrepetibles, es una pieza en la que cada
-          detalle fue minuciosamente hecho con amor y respeto en el proceso;
-          estás apoyando artesanos que quieren exaltar el arte, su historia y
-          antepasados manteniendo viva la tradicional artesanal.
-        </h5>
-      </div>
+      <BrowserRouter>
+        <NavBar />
+        <Routes>
+          <Route path="/" element={<ItemListContainer />} />
+          <Route path="/category/:categoryId" element={<ItemListContainer />} />
+          <Route path="/item/:itemId" element={<ItemDetailContainer />} />
+          <Route path="*" element={<h1>404 NOT FOUND</h1>} />
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }
