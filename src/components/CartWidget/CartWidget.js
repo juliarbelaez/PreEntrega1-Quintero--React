@@ -1,4 +1,5 @@
 import carritoDeCompras from "./assets/carritoDeCompras.png";
+import ItemCount from "../ItemCount/ItemCount";
 
 const CartWidget = () => {
   return (
