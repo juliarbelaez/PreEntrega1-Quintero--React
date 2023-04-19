@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/PreEntrega2-Quintero--React/static/css/main.71196ada.css",
-    "main.js": "/PreEntrega2-Quintero--React/static/js/main.70b9836f.js",
+    "main.js": "/PreEntrega2-Quintero--React/static/js/main.a10c1037.js",
     "static/js/787.46493d11.chunk.js": "/PreEntrega2-Quintero--React/static/js/787.46493d11.chunk.js",
     "static/media/logo.png": "/PreEntrega2-Quintero--React/static/media/logo.11a4badd6aca10e7e0f0.png",
     "static/media/carritoDeCompras.png": "/PreEntrega2-Quintero--React/static/media/carritoDeCompras.c5f5a57d36cb8adbf1f0.png",
     "index.html": "/PreEntrega2-Quintero--React/index.html",
     "main.71196ada.css.map": "/PreEntrega2-Quintero--React/static/css/main.71196ada.css.map",
-    "main.70b9836f.js.map": "/PreEntrega2-Quintero--React/static/js/main.70b9836f.js.map",
+    "main.a10c1037.js.map": "/PreEntrega2-Quintero--React/static/js/main.a10c1037.js.map",
     "787.46493d11.chunk.js.map": "/PreEntrega2-Quintero--React/static/js/787.46493d11.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.71196ada.css",
-    "static/js/main.70b9836f.js"
+    "static/js/main.a10c1037.js"
   ]
 }
