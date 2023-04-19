@@ -4,7 +4,7 @@ const products = [
     name: "Azucarera Carmesí",
     price: 38500,
     category: "azucareras",
-    img: "/assets/azucareraCarmesi.jpg",
+    img: "../assets/azucareraCarmesi.jpg",
     stock: 15,
     description: "Dimensiones: 12cm alto x 11cm ancho x 8cm diámetro",
   },
