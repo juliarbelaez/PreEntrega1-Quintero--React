@@ -25,7 +25,7 @@ const ItemListContainer = ({ greeting }) => {
   return (
     <div>
       <h1>{greeting}</h1>
-      <h5>
+      <h5 className="parrafoPrincipal">
         Cuando compramos un productos 100% hecho a mano estamos comprando un
         artículo que fue pensado, diseñado y ha pasado por horas de prueba para
         conseguir el producto deseado; estamos comprando productos exclusivos,
