@@ -2,7 +2,7 @@
   "name": "e-commerce",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://juliarbelaez.github.io/PreEntrega2-Quintero--React/",
+  "homepage": "http://juliarbelaez.github.io/PreEntrega2-Quintero--React",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
